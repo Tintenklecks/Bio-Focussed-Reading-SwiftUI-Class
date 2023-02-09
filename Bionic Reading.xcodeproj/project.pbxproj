@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD234B22994F91A00CB234F /* Bionify.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD234B12994F91A00CB234F /* Bionify.swift */; };
+		B6EE9DB929755D5800CE2A75 /* Bionic_ReadingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE9DB829755D5800CE2A75 /* Bionic_ReadingApp.swift */; };
+		B6EE9DBB29755D5800CE2A75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE9DBA29755D5800CE2A75 /* ContentView.swift */; };
+		B6EE9DBD29755D5900CE2A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EE9DBC29755D5900CE2A75 /* Assets.xcassets */; };
+		B6EE9DC029755D5900CE2A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EE9DBF29755D5900CE2A75 /* Preview Assets.xcassets */; };
+		B6EE9DCA29755D5A00CE2A75 /* Bionic_ReadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE9DC929755D5A00CE2A75 /* Bionic_ReadingTests.swift */; };
+		B6EE9DD429755D5A00CE2A75 /* Bionic_ReadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE9DD329755D5A00CE2A75 /* Bionic_ReadingUITests.swift */; };
+		B6EE9DD629755D5A00CE2A75 /* Bionic_ReadingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE9DD529755D5A00CE2A75 /* Bionic_ReadingUITestsLaunchTests.swift */; };
+		B6EE9DE329755D8600CE2A75 /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE9DE229755D8600CE2A75 /* Reading.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6EE9DC629755D5A00CE2A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EE9DAD29755D5800CE2A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EE9DB429755D5800CE2A75;
+			remoteInfo = "Bionic Reading";
+		};
+		B6EE9DD029755D5A00CE2A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EE9DAD29755D5800CE2A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EE9DB429755D5800CE2A75;
+			remoteInfo = "Bionic Reading";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAD234B12994F91A00CB234F /* Bionify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionify.swift; sourceTree = "<group>"; };
+		B6EE9DB529755D5800CE2A75 /* Bionic Reading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bionic Reading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EE9DB829755D5800CE2A75 /* Bionic_ReadingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionic_ReadingApp.swift; sourceTree = "<group>"; };
+		B6EE9DBA29755D5800CE2A75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6EE9DBC29755D5900CE2A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6EE9DBF29755D5900CE2A75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6EE9DC529755D5A00CE2A75 /* Bionic ReadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bionic ReadingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EE9DC929755D5A00CE2A75 /* Bionic_ReadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionic_ReadingTests.swift; sourceTree = "<group>"; };
+		B6EE9DCF29755D5A00CE2A75 /* Bionic ReadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bionic ReadingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EE9DD329755D5A00CE2A75 /* Bionic_ReadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionic_ReadingUITests.swift; sourceTree = "<group>"; };
+		B6EE9DD529755D5A00CE2A75 /* Bionic_ReadingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionic_ReadingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6EE9DE229755D8600CE2A75 /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6EE9DB229755D5800CE2A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE9DC229755D5A00CE2A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE9DCC29755D5A00CE2A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6EE9DAC29755D5800CE2A75 = {
+			isa = PBXGroup;
+			children = (
+				B6EE9DB729755D5800CE2A75 /* Bionic Reading */,
+				B6EE9DC829755D5A00CE2A75 /* Bionic ReadingTests */,
+				B6EE9DD229755D5A00CE2A75 /* Bionic ReadingUITests */,
+				B6EE9DB629755D5800CE2A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EE9DB629755D5800CE2A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE9DB529755D5800CE2A75 /* Bionic Reading.app */,
+				B6EE9DC529755D5A00CE2A75 /* Bionic ReadingTests.xctest */,
+				B6EE9DCF29755D5A00CE2A75 /* Bionic ReadingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EE9DB729755D5800CE2A75 /* Bionic Reading */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE9DB829755D5800CE2A75 /* Bionic_ReadingApp.swift */,
+				B6EE9DBA29755D5800CE2A75 /* ContentView.swift */,
+				AAD234B12994F91A00CB234F /* Bionify.swift */,
+				B6EE9DE229755D8600CE2A75 /* Reading.swift */,
+				B6EE9DBC29755D5900CE2A75 /* Assets.xcassets */,
+				B6EE9DBE29755D5900CE2A75 /* Preview Content */,
+			);
+			path = "Bionic Reading";
+			sourceTree = "<group>";
+		};
+		B6EE9DBE29755D5900CE2A75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE9DBF29755D5900CE2A75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6EE9DC829755D5A00CE2A75 /* Bionic ReadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE9DC929755D5A00CE2A75 /* Bionic_ReadingTests.swift */,
+			);
+			path = "Bionic ReadingTests";
+			sourceTree = "<group>";
+		};
+		B6EE9DD229755D5A00CE2A75 /* Bionic ReadingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE9DD329755D5A00CE2A75 /* Bionic_ReadingUITests.swift */,
+				B6EE9DD529755D5A00CE2A75 /* Bionic_ReadingUITestsLaunchTests.swift */,
+			);
+			path = "Bionic ReadingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6EE9DB429755D5800CE2A75 /* Bionic Reading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EE9DD929755D5A00CE2A75 /* Build configuration list for PBXNativeTarget "Bionic Reading" */;
+			buildPhases = (
+				B6EE9DB129755D5800CE2A75 /* Sources */,
+				B6EE9DB229755D5800CE2A75 /* Frameworks */,
+				B6EE9DB329755D5800CE2A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bionic Reading";
+			productName = "Bionic Reading";
+			productReference = B6EE9DB529755D5800CE2A75 /* Bionic Reading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6EE9DC429755D5A00CE2A75 /* Bionic ReadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EE9DDC29755D5A00CE2A75 /* Build configuration list for PBXNativeTarget "Bionic ReadingTests" */;
+			buildPhases = (
+				B6EE9DC129755D5A00CE2A75 /* Sources */,
+				B6EE9DC229755D5A00CE2A75 /* Frameworks */,
+				B6EE9DC329755D5A00CE2A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EE9DC729755D5A00CE2A75 /* PBXTargetDependency */,
+			);
+			name = "Bionic ReadingTests";
+			productName = "Bionic ReadingTests";
+			productReference = B6EE9DC529755D5A00CE2A75 /* Bionic ReadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6EE9DCE29755D5A00CE2A75 /* Bionic ReadingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EE9DDF29755D5A00CE2A75 /* Build configuration list for PBXNativeTarget "Bionic ReadingUITests" */;
+			buildPhases = (
+				B6EE9DCB29755D5A00CE2A75 /* Sources */,
+				B6EE9DCC29755D5A00CE2A75 /* Frameworks */,
+				B6EE9DCD29755D5A00CE2A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EE9DD129755D5A00CE2A75 /* PBXTargetDependency */,
+			);
+			name = "Bionic ReadingUITests";
+			productName = "Bionic ReadingUITests";
+			productReference = B6EE9DCF29755D5A00CE2A75 /* Bionic ReadingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EE9DAD29755D5800CE2A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B6EE9DB429755D5800CE2A75 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B6EE9DC429755D5A00CE2A75 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B6EE9DB429755D5800CE2A75;
+					};
+					B6EE9DCE29755D5A00CE2A75 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B6EE9DB429755D5800CE2A75;
+					};
+				};
+			};
+			buildConfigurationList = B6EE9DB029755D5800CE2A75 /* Build configuration list for PBXProject "Bionic Reading" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6EE9DAC29755D5800CE2A75;
+			productRefGroup = B6EE9DB629755D5800CE2A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6EE9DB429755D5800CE2A75 /* Bionic Reading */,
+				B6EE9DC429755D5A00CE2A75 /* Bionic ReadingTests */,
+				B6EE9DCE29755D5A00CE2A75 /* Bionic ReadingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6EE9DB329755D5800CE2A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EE9DC029755D5900CE2A75 /* Preview Assets.xcassets in Resources */,
+				B6EE9DBD29755D5900CE2A75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE9DC329755D5A00CE2A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE9DCD29755D5A00CE2A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EE9DB129755D5800CE2A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD234B22994F91A00CB234F /* Bionify.swift in Sources */,
+				B6EE9DBB29755D5800CE2A75 /* ContentView.swift in Sources */,
+				B6EE9DB929755D5800CE2A75 /* Bionic_ReadingApp.swift in Sources */,
+				B6EE9DE329755D8600CE2A75 /* Reading.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE9DC129755D5A00CE2A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EE9DCA29755D5A00CE2A75 /* Bionic_ReadingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE9DCB29755D5A00CE2A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EE9DD429755D5A00CE2A75 /* Bionic_ReadingUITests.swift in Sources */,
+				B6EE9DD629755D5A00CE2A75 /* Bionic_ReadingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6EE9DC729755D5A00CE2A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EE9DB429755D5800CE2A75 /* Bionic Reading */;
+			targetProxy = B6EE9DC629755D5A00CE2A75 /* PBXContainerItemProxy */;
+		};
+		B6EE9DD129755D5A00CE2A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EE9DB429755D5800CE2A75 /* Bionic Reading */;
+			targetProxy = B6EE9DD029755D5A00CE2A75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6EE9DD729755D5A00CE2A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6EE9DD829755D5A00CE2A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6EE9DDA29755D5A00CE2A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bionic Reading/Preview Content\"";
+				DEVELOPMENT_TEAM = KT43342F9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.IBMobile.Bionic-Reading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6EE9DDB29755D5A00CE2A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bionic Reading/Preview Content\"";
+				DEVELOPMENT_TEAM = KT43342F9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.IBMobile.Bionic-Reading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6EE9DDD29755D5A00CE2A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT43342F9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.IBMobile.Bionic-ReadingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bionic Reading.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bionic Reading";
+			};
+			name = Debug;
+		};
+		B6EE9DDE29755D5A00CE2A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT43342F9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.IBMobile.Bionic-ReadingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bionic Reading.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bionic Reading";
+			};
+			name = Release;
+		};
+		B6EE9DE029755D5A00CE2A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT43342F9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.IBMobile.Bionic-ReadingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bionic Reading";
+			};
+			name = Debug;
+		};
+		B6EE9DE129755D5A00CE2A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT43342F9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.IBMobile.Bionic-ReadingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bionic Reading";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6EE9DB029755D5800CE2A75 /* Build configuration list for PBXProject "Bionic Reading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE9DD729755D5A00CE2A75 /* Debug */,
+				B6EE9DD829755D5A00CE2A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EE9DD929755D5A00CE2A75 /* Build configuration list for PBXNativeTarget "Bionic Reading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE9DDA29755D5A00CE2A75 /* Debug */,
+				B6EE9DDB29755D5A00CE2A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EE9DDC29755D5A00CE2A75 /* Build configuration list for PBXNativeTarget "Bionic ReadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE9DDD29755D5A00CE2A75 /* Debug */,
+				B6EE9DDE29755D5A00CE2A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EE9DDF29755D5A00CE2A75 /* Build configuration list for PBXNativeTarget "Bionic ReadingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE9DE029755D5A00CE2A75 /* Debug */,
+				B6EE9DE129755D5A00CE2A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EE9DAD29755D5800CE2A75 /* Project object */;
+}
