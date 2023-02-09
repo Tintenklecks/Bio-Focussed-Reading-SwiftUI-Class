@@ -1,5 +1,7 @@
-# Bionic-Reading-SwiftUI-Class
-This is a simple SwiftUI implementation of the Bionic Reading(R) algorithm. It is based on the fact that emphasized text attracts your eye more. By emphasizing the beginning of important words (and sparing out fillers like and or ...) the reading speed increases drastically
+# Fast-Reading-SwiftUI-Class
+This is a simple SwiftUI implementation of the Bionic Reading(R) algorithm. 
+
+It is based on the idea that emphasized text attracts your eye more. By emphasizing the beginning of important words (and sparing out fillers like and or ...) the reading speed increases drastically
 
 | try to read this text      | Compared to this one |
 | ----------- | ----------- |
