@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct Bionic_ReadingApp: App {
+struct FastReadingApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -5,21 +5,24 @@ import SwiftUI
 // MARK: - ContentView
 
 struct ContentView: View {
-    @State private var bionic: Bool = false
+    @State private var fastReading: Bool = false
 
     var body: some View {
-        ScrollView {
-            Button("Change to \(bionic ? "Normal" : "Bionic") Text") {
+        VStack {
+            Button("Change to \(fastReading ? "Normal" : "Fast") Reading") {
                 withAnimation {
-                    bionic.toggle()
+                    fastReading.toggle()
                 }
             }
-            VStack {
-                Bionify.text(text.trimmingCharacters(in: .whitespacesAndNewlines), convert: bionic)
-                    .animation(.easeInOut, value: bionic)
-                Spacer()
+
+            ScrollView {
+                VStack {
+                    FastReading.text(text.trimmingCharacters(in: .whitespacesAndNewlines), convert: fastReading)
+                        .animation(.easeInOut, value: fastReading)
+                    Spacer()
+                }
+                .padding()
             }
-            .padding()
         }
     }
 
